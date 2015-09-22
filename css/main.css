@@ -1,14 +1,22 @@
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-h1 {
-	font-size: 35px !important;
+.header-text {
+	font-size: 70px;
 }
 
-p {
-   font-size: 25px !important;
+.sub-header-text {
+	font-size: 30px;
 }
 
-.bg-info {
-	font-size: 15px !important;
+.normal-text {
+	font-size: 20px;
+}
+
+.footer-text {
+	font-size: 15px;
+}
+
+.top-buffer {
+	margin-top: 20px;
 }
