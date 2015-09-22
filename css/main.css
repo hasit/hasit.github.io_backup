@@ -2,13 +2,13 @@
 Author's custom styles
 ========================================================================== */
 h1 {
-	font-size: 35px;
+	font-size: 35px !important;
 }
 
 p {
-   font-size: 25px;
+   font-size: 25px !important;
 }
 
 .bg-info {
-	font-size: 15px;
+	font-size: 15px !important;
 }
