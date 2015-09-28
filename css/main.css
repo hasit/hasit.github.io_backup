@@ -1,13 +1,6 @@
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-.header-text {
-	font-size: 60px;
-}
-
-.sub-header-text {
-	font-size: 30px;
-}
 
 .normal-text {
 	font-size: 20px;
@@ -17,6 +10,16 @@ Author's custom styles
 	font-size: 15px;
 }
 
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.center-div {
+	margin: 15% 0;
+}
+
 .top-buffer {
-	margin-top: 20px;
+	margin-top: 15px;
 }
