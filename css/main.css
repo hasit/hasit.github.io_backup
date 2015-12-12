@@ -2,11 +2,10 @@
 Author's custom styles
 ========================================================================== */
 
-.rightextrapadding {
-  padding-right: 50px !important;
+.no-padding-right {
+  padding-right: 0px !important;
 }
 
-.extraspace {
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+.no-padding-left {
+  padding-left: 0px !important;
 }
