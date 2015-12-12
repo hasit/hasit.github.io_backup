@@ -1,6 +1,5 @@
 <hello-world>
-  <p>{ opts.punctuation } <trim value="Kaise ho?" length="3" /> { opts.punctuation }</p>
-  this.what = "hasit"
+  <p>{ opts.greetings } <trim value="Kaise ho?" length="3" /> { opts.punctuation }</p>
 </hello-world>
 
 <trim>
