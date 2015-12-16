@@ -7,9 +7,9 @@ body {
 }
 
 .no-padding-right {
-  padding-right: 0px !important;
+  padding-right: 0 !important;
 }
 
 .no-padding-left {
-  padding-left: 0px !important;
+  padding-left: 0 !important;
 }
