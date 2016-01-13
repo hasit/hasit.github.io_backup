@@ -13,3 +13,7 @@ body {
 .no-padding-left {
   padding-left: 0 !important;
 }
+
+.large-font {
+  font-size: 120%
+}
