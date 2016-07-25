@@ -1,5 +1,5 @@
-(function($){
-    $.fn.typer = function(text, options){
+(function ($) {
+    $.fn.typer = function (text, options){
         options = $.extend({}, {
             char: '',
             delay: 2000,
@@ -13,14 +13,14 @@
         text = $.isPlainObject(text) ? options.text : text;
         text = $.isArray(text) ? text : text.split(" ");
 
-        return this.each(function(){
+        return this.each(function () {
             var elem = $(this),
                 isVal = {input:1, textarea:1}[this.tagName.toLowerCase()],
                 isTag = false,
                 timer,
                 c = 0;
 
-            (function typetext(i) {
+            (function typetext (i) {
                 var e = ({string:1, number:1}[typeof text] ? text : text[i]) + '',
                     char = e.substr(c++, 1);
 

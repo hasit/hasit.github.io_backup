@@ -8,6 +8,7 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" hred="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 </head>
 <body>
@@ -15,6 +16,9 @@
   <!-- JS -->
   <script src="js/typewriter.js"></script>
   <script type="text/javascript">
+  $("img.mustload").on("load", function(){
+    console.log("image loaded");
+  });
   function validateAnswer() {
     var answer = $("#answer").val();
     console.log(answer);
@@ -31,14 +35,13 @@
   }
   </script>
   <script>
-  var win = $(window),
-  foo = $('#typer');
+  var foo = $('#typer');
   foo.typer([
     "So it is actually you, <span id='blue'>Brenda</span>.",
-    "Hello there, beautiful! <img src='img/brenda.jpg' style='width:800px;height:600px;'/>",
+    "Hello there, beautiful! <img class='mustload' src='img/brenda.jpg' style='width:800px;height:600px' alt=''>",
     "Hasit tells me that he enjoys your company very much.",
     "Honestly, I don't see how you can be more fun than me.",
-    "Do you even like him? <input id='answer' type='text' size='2'> <a href='javascript:void(0)' onclick='validateAnswer(); return false;'><i class='fa fa-arrow-right'></i></a>"
+    "Do you like him? <input id='answer' type='text' size='2'> <a href='javascript:void(0)' onclick='validateAnswer(); return false;'><i class='fa fa-arrow-right'></i></a>"
   ]);
   </script>
 </body>
