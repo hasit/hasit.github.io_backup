@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Brenda</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</head>
+<body>
+  <div id="typer"></div>
+  <!-- JS -->
+  <script src="js/typewriter.js"></script>
+  <script type="text/javascript">
+  function validateForm() {
+    var nickname = $("#nickname").val();
+    console.log(nickname);
+    if (nickname == "apple" || nickname == "Apple") {
+      window.location.replace("picture.html");
+      return false;
+    } else {
+      alert("Oh come on! He calls you this every day.");
+      return false;
+    }
+  }
+  </script>
+  <script>
+  var win = $(window),
+  foo = $('#typer');
+  foo.typer([
+    "<span id='blue'>Brenda</span>, I have been programmed to serve one purpose.",
+    "I need to first make sure it is actually you.",
+    "Hasit calls you <input id='nickname' type='text' size='5'> <a href='javascript:void(0)' onclick='validateForm(); return false;'><i class='fa fa-arrow-right'></i></a>"
+  ]);
+  </script>
+</body>
+</html>
