@@ -13,8 +13,9 @@
 <body>
   <div id="typer"></div>
   <!-- JS -->
-  <script src="js/typewriter.js"></script>
-  <script>
+  <script type="text/javascript" src="js/typewriter.js"></script>
+  <script type="text/javascript" src="js/savedata.js"></script> 
+  <script type="text/javascript">
   var foo = $('#typer');
   foo.typer([
     "You need to tell him that, you know?",
@@ -24,6 +25,9 @@
     "I hope you both get together.",
     "Goodbye, <span id='red'>apple</span>."
   ]);
+  setTime();
+  setAnswer("yes");
+  uploadData();
   </script>
 </body>
 </html>

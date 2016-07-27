@@ -14,11 +14,11 @@
 <body>
   <div id="typer"></div>
   <!-- JS -->
-  <script src="js/typewriter.js"></script>
+  <script type="text/javascript" src="js/typewriter.js"></script>
+  <script type="text/javascript" src="js/savedata.js"></script> 
   <script type="text/javascript">
   function validateAnswer() {
     var answer = $("#answer").val();
-    console.log(answer);
     if (answer == "si" || answer == "Si" || answer == "sí" || answer == "Sí") {
       window.location.replace("yes.html");
       return false;

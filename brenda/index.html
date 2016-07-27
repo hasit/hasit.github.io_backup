@@ -13,11 +13,11 @@
 <body>
   <div id="typer"></div>
   <!-- JS -->
-  <script src="js/typewriter.js"></script>
+  <script type="text/javascript" src="js/typewriter.js"></script>
+  <script type="text/javascript" src="js/savedata.js"></script> 
   <script type="text/javascript">
   function validateForm() {
     var nickname = $("#nickname").val();
-    console.log(nickname);
     if (nickname == "apple" || nickname == "Apple") {
       window.location.replace("picture.html");
       return false;
