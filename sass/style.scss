@@ -1,0 +1,94 @@
+$font-stack: 'Arvo', serif;
+
+$atom-one-dark-accent: #528BFF;
+
+$atom-one-dark-fg: #ABB2BF;
+$atom-one-dark-bg: #282C34;
+$atom-one-dark-bg-1: #121417;
+$atom-one-dark-bg-hl: #2F343D;
+
+$atom-one-dark-mono-1: #ABB2BF;
+$atom-one-dark-mono-2: #828997;
+$atom-one-dark-mono-3: #5C6370;
+$atom-one-dark-cyan: #56B6C2;
+$atom-one-dark-blue: #61AFEF;
+$atom-one-dark-purple: #C678DD;
+$atom-one-dark-green: #98C379;
+$atom-one-dark-red-1: #E06C75;
+$atom-one-dark-red-2: #BE5046;
+$atom-one-dark-orange-1: #D19A66;
+$atom-one-dark-orange-2: #E5C07B;
+$atom-one-dark-gray: #3E4451;
+$atom-one-dark-silver: #AAAAAA;
+$atom-one-dark-black: #0F1011;
+
+body {
+    font-family: $font-stack; 
+    background-color: $atom-one-dark-bg;
+    color: $atom-one-dark-fg;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.container {
+    max-width: 60%;
+}
+
+h1 {
+    font-weight: 600;
+    margin: 0;
+}
+
+.links {
+    margin: 0 0 1.5em 0;
+}
+
+.links a {
+    color: $atom-one-dark-blue;
+    margin: auto 1em auto 0;
+}
+
+.intro {
+    margin: 0 0 2em 0;
+}
+
+.intro a {
+    color: $atom-one-dark-orange-2; 
+    text-decoration: none;
+}
+
+.title {
+    cursor: pointer;
+    color: $atom-one-dark-red-2;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0.8em 0;
+}
+
+.title:before {
+    font-family: FontAwesome;
+    content: '\f054  ';
+}
+
+.life-events {
+    margin: 0 0 2em 0;
+}
+
+.projects {
+    margin: 0 0 2em 0;
+}
+
+.list {
+    display: none;
+}
+
+.outro {
+    margin: 0 0 2em 0;
+}
+
+.outro a {
+    color: $atom-one-dark-orange-2; 
+    text-decoration: none;
+}

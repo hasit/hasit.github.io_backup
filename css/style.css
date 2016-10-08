@@ -1,0 +1,58 @@
+body {
+  font-family: "Arvo", serif;
+  background-color: #282C34;
+  color: #ABB2BF;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  margin: 2em; }
+
+.container {
+  max-width: 60%; }
+
+h1 {
+  font-weight: 600;
+  margin: 0; }
+
+.links {
+  margin: 0 0 1.5em 0; }
+
+.links a {
+  color: #61AFEF;
+  margin: auto 1em auto 0; }
+
+.intro {
+  margin: 0 0 2em 0; }
+
+.intro a {
+  color: #E5C07B;
+  text-decoration: none; }
+
+.title {
+  cursor: pointer;
+  color: #BE5046;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0.8em 0; }
+
+.title:before {
+  font-family: FontAwesome;
+  content: '\f054  '; }
+
+.life-events {
+  margin: 0 0 2em 0; }
+
+.projects {
+  margin: 0 0 2em 0; }
+
+.list {
+  display: none; }
+
+.outro {
+  margin: 0 0 2em 0; }
+
+.outro a {
+  color: #E5C07B;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
