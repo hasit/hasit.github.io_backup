@@ -141,3 +141,14 @@ ul {
         text-decoration: none;
     }
 }
+
+.footer {
+    margin: 0 0 2em 0;
+    a {
+        color: $atom-one-dark-orange-2;
+        text-decoration: none;
+    }
+    .fa {
+        color: $atom-one-dark-red-2;
+    }
+}
