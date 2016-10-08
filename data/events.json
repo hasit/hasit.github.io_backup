@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "date": "October 2016",
+      "description": {
+        "what": "Teaching Assistant for Dr. Jeffery Kim.",
+        "info": "Digital Thinking (BIS 111 A) and Software Engineering (CSS 360 C) courses."
+      }
+    },
+    {
+      "date": "August 2016",
+      "description": {
+        "what": "Turned 24",
+        "info": "Yay!"
+      }
+    }
+  ]
+}
