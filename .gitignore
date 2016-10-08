@@ -1,3 +1,8 @@
 *.DS_Store
 
 CNAME
+# Created by https://www.gitignore.io/api/sass
+
+### Sass ###
+.sass-cache/
+*.css.map
