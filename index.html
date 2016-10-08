@@ -2,6 +2,22 @@
 <html lang="en">
     <head>
         <title>Hasit Mistry</title>
+        <meta name="description" content="Hasit Mistry's personal website." />
+
+        <!-- Twitter data -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Hasit Mistry">
+        <meta name="twitter:description" content="Hasit Mistry's personal website.">
+        <meta name="twitter:creator" content="@hasitmistry">
+        <meta name="twitter:image" content="http://hasit.github.io/img/hasit.jpg">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Hasit Mistry" />
+        <meta property="og:url" content="http://hasit.github.io" />
+        <meta property="og:image" content="http://hasit.github.io/img/hasit.jpg" />
+        <meta property="og:description" content="Hasit Mistry's personal website." />
+        <meta property="og:site_name" content="Hasit Mistry" />
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
@@ -14,28 +30,36 @@
             <div class="links">
                 <a href="https://github.com/hasit" target="_blank">github</a>
                 <a href="https://www.linkedin.com/in/hasitmistry" target="_blank">linkedin</a>
+                <a href="https://twitter.com/hasitmistry" target="_blank">twitter</a>
                 <a href="https://medium.com/@hasitmistry" target="_blank">medium</a>
                 <a href="mailto:hasitnm@gmail.com" target="_blank">email</a>
             </div>
             <div class="intro">
                 My name is Hasit Mistry and I am a student at <a href="http://www.uwb.edu" target="_blank">University of Washington Bothell</a> pursuing MS in Computer Science and Software Engineering. I am part of the <a href="http://depts.washington.edu/citw/wordpress/" target="_blank">CITW</a> research team and an avid <a href="https://golang.org" target="_blank">Gopher</a>.
             </div>
-            <div class="life-events">
-                <div class="title">Life Events</div>
+            <div class="life">
+                <div class="title noselect">Life Events</div>
                 Major life events in chronological order.
-                <div class="events"></div>
+                <div class="list">
+                    <ul id="events"></ul>
+                </div>
             </div>
-            <div class="projects">
-                <div class="title">Projects</div>
+            <div class="work">
+                <div class="title noselect">Projects</div>
                 Projects that I have either authored or worked on in a team.
-                <div class="projects"></div>
+                <div class="list">
+                    <ul id="projects"></ul>
+                </div>
             </div>
             <div class="outro">
                 Apart from all the geeky stuff, I play purcussion instruments, dabble in street photography and have an unsual love for all fruits. Feel free to get in touch with me by sending an <a href="mailto:hasitnm@gmail.com" target="_blank">email</a>; I'm usually very responsive.
                 <br>
                 <br>
-                The source code of this website is released under MIT license <a href="https://github.com/hasit/hasit.github.io" target="_blank">here</a>. The design of this website is heavily inspired by <a href="http://cassidoo.co" target="_blank">Cassidy William's personal website</a>. I used <a href="https://atom.io/themes/one-dark-ui" target="_blank">Atom One Dark UI's color theme</a>, <a href="https://fonts.google.com/specimen/Arvo" target="_blank">Anton Koovit's Arvo font</a>, and <a href="http://fontawesome.io" target="_blank">Font Awesome's icons</a>.
+                The source code of this website is released under MIT license <a href="https://github.com/hasit/hasit.github.io" target="_blank">here</a>
             </div>
         </div>
+
+        <script type='text/javascript' src='js/fetch.js'></script>
+        <script type='text/javascript' src='js/data.js'></script>
     </body>
 </html>
