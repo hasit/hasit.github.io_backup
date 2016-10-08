@@ -24,8 +24,9 @@ body {
     background-color: $atom-one-dark-bg;
     color: $atom-one-dark-fg;
     font-size: 1em;
-    display: flex;
     justify-content: center;
+    display: flex;
+    flex-flow: row;
     margin: 2em;
 }
 
@@ -33,30 +34,9 @@ body {
     max-width: 70%;
 }
 
-h1 {
+.name {
     font-weight: 600;
     margin: 0;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    li {
-        margin: 1em 0;
-        display: flex;
-        justify-content: flex-start;
-        .date {
-            color: $atom-one-dark-green;
-            min-width: 150px;
-        }
-        .desc {
-            display: flex;
-            flex-direction: column;
-        }
-        .desc .info {
-            font-size: 0.8em;
-        }
-    }
 }
 
 .links {
@@ -146,5 +126,26 @@ ul {
     }
     .fa {
         color: $atom-one-dark-red-2;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    li {
+        margin: 1em 0;
+        display: flex;
+        justify-content: flex-start;
+        .date {
+            color: $atom-one-dark-green;
+            min-width: 150px;
+        }
+        .desc {
+            display: flex;
+            flex-direction: column;
+        }
+        .desc .info {
+            font-size: 0.8em;
+        }
     }
 }

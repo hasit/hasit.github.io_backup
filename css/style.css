@@ -3,32 +3,17 @@ body {
   background-color: #282C34;
   color: #ABB2BF;
   font-size: 1em;
-  display: flex;
   justify-content: center;
+  display: flex;
+  flex-flow: row;
   margin: 2em; }
 
 .container {
   max-width: 70%; }
 
-h1 {
+.name {
   font-weight: 600;
   margin: 0; }
-
-ul {
-  list-style: none;
-  padding: 0; }
-  ul li {
-    margin: 1em 0;
-    display: flex;
-    justify-content: flex-start; }
-    ul li .date {
-      color: #98C379;
-      min-width: 150px; }
-    ul li .desc {
-      display: flex;
-      flex-direction: column; }
-    ul li .desc .info {
-      font-size: 0.8em; }
 
 .links {
   margin: 0 0 1.5em 0; }
@@ -96,5 +81,21 @@ ul {
     text-decoration: none; }
   .footer .fa {
     color: #BE5046; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+  ul li {
+    margin: 1em 0;
+    display: flex;
+    justify-content: flex-start; }
+    ul li .date {
+      color: #98C379;
+      min-width: 150px; }
+    ul li .desc {
+      display: flex;
+      flex-direction: column; }
+    ul li .desc .info {
+      font-size: 0.8em; }
 
 /*# sourceMappingURL=style.css.map */
