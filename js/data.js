@@ -1,6 +1,7 @@
 (function () {
   window.addEventListener('load', function () {
     events();
+    projects();
     expandGroups('click');
     expandGroups('touchend');
   }, false);
@@ -29,15 +30,25 @@ function buildHeader() {
 }
 
 // pull highlights content
-function pullEvents() {
-  return fetch('./data/events.json', buildHeader()).then(function (response) {
+function pullData(file) {
+  return fetch('./data/' + file + '.json', buildHeader()).then(function (response) {
     return response.json();
   });
 }
 
 function events() {
   var h = document.getElementById('events');
-  pullEvents().then(function (r) {
+  pullData('events').then(function (r) {
+    for (var i = 0, len = r.data.length; i < len; i++) {
+      var x = r.data[i];
+      h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div class="what">' + x.description.what + '</div><div class="info">' + x.description.info + '</div></div></li>';
+    }
+  });
+}
+
+function projects() {
+  var h = document.getElementById('projects');
+  pullData('projects').then(function (r) {
     for (var i = 0, len = r.data.length; i < len; i++) {
       var x = r.data[i];
       h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div class="what">' + x.description.what + '</div><div class="info">' + x.description.info + '</div></div></li>';

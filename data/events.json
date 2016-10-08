@@ -10,8 +10,15 @@
     {
       "date": "August 2016",
       "description": {
-        "what": "Turned 24",
-        "info": "Yay!"
+        "what": "Test what",
+        "info": "Test info"
+      }
+    },
+    {
+      "date": "July 2016",
+      "description": {
+        "what": "Test what what",
+        "info": "Test info again"
       }
     }
   ]
