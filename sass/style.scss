@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    max-width: 60%;
+    max-width: 70%;
 }
 
 h1 {
@@ -47,13 +47,12 @@ ul {
         justify-content: flex-start;
         .date {
             color: $atom-one-dark-green;
-            min-width: 200px;
+            min-width: 150px;
         }
         .desc {
             display: flex;
             flex-direction: column;
         }
-
         .desc .info {
             font-size: 0.8em;
         }
@@ -80,7 +79,6 @@ ul {
     margin: 0 0 2em 0;
     .title {
         cursor: pointer;
-        color: $atom-one-dark-red-2;
         font-size: 1.2em;
         font-weight: 600;
         margin: 0.8em 0;
@@ -98,7 +96,6 @@ ul {
     margin: 0 0 2em 0;
     .title {
         cursor: pointer;
-        color: $atom-one-dark-red-2;
         font-size: 1.2em;
         font-weight: 600;
         margin: 0.8em 0;
@@ -119,7 +116,6 @@ ul {
             content: '\f078  ';
         }
     }
-    .list,
     .list {
         display: block;
     }
