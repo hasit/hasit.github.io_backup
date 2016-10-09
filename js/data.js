@@ -19,7 +19,6 @@ ga('send', 'pageview');
 function expandGroups(event) {
   if (event === 'touchend') {
     event.preventDefault();
-    console.log('touchend');
   }
   var els = document.getElementsByClassName('title');
   Array.prototype.forEach.call(els, function (el) {
