@@ -4,8 +4,7 @@ body {
   color: #ABB2BF;
   font-size: 1em;
   justify-content: center;
-  display: flex;
-  margin: 2em; }
+  display: flex; }
 
 .container {
   max-width: 650px; }
