@@ -4,6 +4,7 @@
     projects();
     expandGroups('click');
     expandGroups('touchend');
+    expandGroups('touchstart');
   }, false);
 })();
 
