@@ -1,31 +1,22 @@
 {
   "data": [
     {
-      "date": "Fall 2016",
+      "date": "Fall 2017",
       "type": "work",
       "description": {
         "what": "Teaching Assistant for",
-        "who": "Dr. Jeffery Kim.",
+        "who": "Dr. Jeffery Kim",
         "info": "Digital Thinking (BIS 111 A) and Software Engineering (CSS 360 C) courses."
       }
     },
     {
-      "date": "August 2016",
+      "date": "Comming Soon",
       "type": "fun",
       "description": {
-        "what": "Test",
-        "who": "what",
-        "info": "Test info"
-      }
-    },
-    {
-      "date": "July 2016",
-      "type": "milestone",
-      "description": {
-        "what": "Test",
-        "who": "what what",
-        "info": "Test info again"
-      }
+        "what": "More of what",
+        "who": "More of who.",
+        "info": "More information."
+      } 
     }
   ]
 }

@@ -1,17 +1,11 @@
 {
   "data": [
     {
-      "date": "August 2016",
+      "date": "All the time!",
       "description": {
-        "what": "Test what",
-        "info": "Test info"
-      }
-    },
-    {
-      "date": "July 2016",
-      "description": {
-        "what": "Test what what",
-        "info": "Test info again"
+        "what": "More projects coming",
+        "who": "here",
+        "info": "More information."
       }
     }
   ]

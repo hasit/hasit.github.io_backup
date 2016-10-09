@@ -60,7 +60,7 @@ function projects() {
   pullData('projects').then(function (r) {
     for (var i = 0, len = r.data.length; i < len; i++) {
       var x = r.data[i];
-      h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div>' + x.description.what + '<span class=' + x.type + '>' + x.description.who + '</span></div><div class="info">' + x.description.info + '</div></div></li>';
+      h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div>' + x.description.what + ' ' + x.description.who + '</div><div class="info">' + x.description.info + '</div></div></li>';
     }
   });
 }
