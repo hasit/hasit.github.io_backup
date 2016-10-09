@@ -1,5 +1,4 @@
-$font-stack: 'Arvo',
-serif;
+$font-stack: 'Exo 2', sans-serif;
 $atom-one-dark-accent: #528BFF;
 $atom-one-dark-fg: #ABB2BF;
 $atom-one-dark-bg: #282C34;
@@ -34,7 +33,7 @@ body {
     max-width: 70%;
 }
 
-.name {
+.header {
     font-weight: 600;
     margin: 0;
 }
@@ -42,7 +41,7 @@ body {
 .links {
     margin: 0 0 1.5em 0;
     a {
-        color: $atom-one-dark-blue;
+        color: $atom-one-dark-orange-1;
         margin: auto 1em auto 0;
     }
 }
@@ -137,15 +136,28 @@ ul {
         display: flex;
         justify-content: flex-start;
         .date {
-            color: $atom-one-dark-green;
-            min-width: 150px;
+            flex-basis: 20%;
+            order: 1;
+            color: $atom-one-dark-mono-3;
         }
         .desc {
+            flex-basis: 80%;
+            order: 2;
+            margin-left: 1em;
             display: flex;
             flex-direction: column;
         }
         .desc .info {
-            font-size: 0.8em;
+            color: $atom-one-dark-mono-2;
+        }
+        span.work {
+            color: $atom-one-dark-blue;
+        }
+        span.fun {
+            color: $atom-one-dark-red-1;
+        }
+        span.milestone {
+            color: $atom-one-dark-green;
         }
     }
 }

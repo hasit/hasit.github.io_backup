@@ -1,5 +1,5 @@
 body {
-  font-family: "Arvo", serif;
+  font-family: "Exo 2", sans-serif;
   background-color: #282C34;
   color: #ABB2BF;
   font-size: 1em;
@@ -11,14 +11,14 @@ body {
 .container {
   max-width: 70%; }
 
-.name {
+.header {
   font-weight: 600;
   margin: 0; }
 
 .links {
   margin: 0 0 1.5em 0; }
   .links a {
-    color: #61AFEF;
+    color: #D19A66;
     margin: auto 1em auto 0; }
 
 .intro {
@@ -90,12 +90,22 @@ ul {
     display: flex;
     justify-content: flex-start; }
     ul li .date {
-      color: #98C379;
-      min-width: 150px; }
+      flex-basis: 20%;
+      order: 1;
+      color: #5C6370; }
     ul li .desc {
+      flex-basis: 80%;
+      order: 2;
+      margin-left: 1em;
       display: flex;
       flex-direction: column; }
     ul li .desc .info {
-      font-size: 0.8em; }
+      color: #828997; }
+    ul li span.work {
+      color: #61AFEF; }
+    ul li span.fun {
+      color: #E06C75; }
+    ul li span.milestone {
+      color: #98C379; }
 
 /*# sourceMappingURL=style.css.map */
