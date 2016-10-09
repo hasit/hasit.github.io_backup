@@ -10,13 +10,40 @@
       }
     },
     {
-      "date": "Comming Soon",
+      "date": "February 2016",
+      "type": "milestone",
+      "description": {
+        "what": "$5,000",
+        "who": "graduate student scholarship",
+        "info": "Scholarship from CSS Department, University of Washington Bothell."
+      } 
+    },
+    {
+      "date": "November 2015",
       "type": "fun",
       "description": {
-        "what": "More of what",
-        "who": "More of who.",
-        "info": "More information."
-      } 
+        "what": "All-Star Team for",
+        "who": "UWB and Microsoft IoT Challenge",
+        "info": "Project ‘Om – Stress detection, recognition and relief' to solve a campus specific problem. Even got a gift card from Microsoft."
+      }
+    },
+    {
+      "date": "October 2015",
+      "type": "milestone",
+      "description": {
+        "what": "$3,000 grant for",
+        "who": "SWIS research",
+        "info": "Awarded a grant from CSS Department, University of Washington Bothell towards purchase of equipment required for conducting research."
+      }
+    },
+    {
+      "date": "March 2011",
+      "type": "fun",
+      "description": {
+        "what": "Winner of",
+        "who": "Opus ‘11",
+        "info": "Secured 1st place at Opus Technical Festival, 2011 for the project 'Simple Hand Gesture Recognition' to control VLC media player."
+      }
     }
   ]
 }
