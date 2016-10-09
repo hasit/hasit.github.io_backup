@@ -8,7 +8,7 @@ body {
   margin: 2em; }
 
 .container {
-  max-width: 70%; }
+  max-width: 650px; }
   .container .header {
     font-weight: 700;
     margin: 0; }
@@ -59,8 +59,8 @@ body {
     list-style: none;
     padding: 0; }
     .container ul li {
-      margin: 1em 0;
       display: flex;
+      margin-bottom: 0.5em;
       justify-content: flex-start; }
       .container ul li .date {
         min-width: 150px;
@@ -69,13 +69,13 @@ body {
         margin-left: 1em;
         display: flex;
         flex-direction: column; }
-      .container ul li .desc .info {
-        color: #828997; }
-      .container ul li span.work {
-        color: #61AFEF; }
-      .container ul li span.fun {
-        color: #98C379; }
-      .container ul li span.milestone {
-        color: #BE5046; }
+        .container ul li .desc .info {
+          color: #828997; }
+        .container ul li .desc span.work {
+          color: #61AFEF; }
+        .container ul li .desc span.fun {
+          color: #98C379; }
+        .container ul li .desc span.milestone {
+          color: #BE5046; }
 
 /*# sourceMappingURL=style.css.map */

@@ -19,7 +19,6 @@ $atom-one-dark-orange-2: #E5C07B;
 $atom-one-dark-gray: #3E4451;
 $atom-one-dark-silver: #AAAAAA;
 $atom-one-dark-black: #0F1011;
-
 body {
     font-family: $font-stack;
     background-color: $atom-one-dark-bg;
@@ -31,7 +30,7 @@ body {
 }
 
 .container {
-    max-width: 70%;
+    max-width: 650px;
     .header {
         font-weight: 700;
         margin: 0;
@@ -91,8 +90,8 @@ body {
         list-style: none;
         padding: 0;
         li {
-            margin: 1em 0;
             display: flex;
+            margin-bottom: 0.5em;
             justify-content: flex-start;
             .date {
                 min-width: 150px;
@@ -102,18 +101,18 @@ body {
                 margin-left: 1em;
                 display: flex;
                 flex-direction: column;
-            }
-            .desc .info {
-                color: $atom-one-dark-mono-2;
-            }
-            span.work {
-                color: $atom-one-dark-blue;
-            }
-            span.fun {
-                color: $atom-one-dark-green;
-            }
-            span.milestone {
-                color: $atom-one-dark-red-2;
+                .info {
+                    color: $atom-one-dark-mono-2;
+                }
+                span.work {
+                    color: $atom-one-dark-blue;
+                }
+                span.fun {
+                    color: $atom-one-dark-green;
+                }
+                span.milestone {
+                    color: $atom-one-dark-red-2;
+                }
             }
         }
     }
