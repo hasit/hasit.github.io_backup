@@ -4,6 +4,7 @@ body {
   color: #ABB2BF;
   font-size: 1em;
   justify-content: center;
+  align-items: center;
   display: flex; }
 
 .container {
@@ -62,7 +63,7 @@ body {
       margin-bottom: 0.5em;
       justify-content: flex-start; }
       .container ul li .date {
-        min-width: 150px;
+        min-width: 125px;
         color: #828997; }
       .container ul li .desc {
         margin-left: 1em;

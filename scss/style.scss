@@ -25,6 +25,7 @@ body {
     color: $atom-one-dark-fg;
     font-size: 1em;
     justify-content: center;
+    align-items: center;
     display: flex;
 }
 
@@ -93,7 +94,7 @@ body {
             margin-bottom: 0.5em;
             justify-content: flex-start;
             .date {
-                min-width: 150px;
+                min-width: 125px;
                 color: $atom-one-dark-mono-2;
             }
             .desc {
