@@ -1,4 +1,5 @@
-$font-stack: 'Exo 2', sans-serif;
+$font-stack: 'Arvo',
+serif;
 $atom-one-dark-accent: #528BFF;
 $atom-one-dark-fg: #ABB2BF;
 $atom-one-dark-bg: #282C34;
@@ -31,133 +32,92 @@ body {
 
 .container {
     max-width: 70%;
-}
-
-.header {
-    font-weight: 600;
-    margin: 0;
-}
-
-.links {
-    margin: 0 0 1.5em 0;
-    a {
-        color: $atom-one-dark-orange-1;
-        margin: auto 1em auto 0;
+    .header {
+        font-weight: 700;
+        margin: 0;
     }
-}
-
-.intro {
-    margin: 0 0 2em 0;
-    a {
-        color: $atom-one-dark-orange-2;
-        text-decoration: none;
-    }
-}
-
-.life {
-    margin: 0 0 2em 0;
-    .title {
-        cursor: pointer;
-        font-size: 1.2em;
-        font-weight: 600;
-        margin: 0.8em 0;
-    }
-    .title:before {
-        font-family: FontAwesome;
-        content: '\f054  ';
-    }
-    .list {
-        display: none;
-    }
-}
-
-.work {
-    margin: 0 0 2em 0;
-    .title {
-        cursor: pointer;
-        font-size: 1.2em;
-        font-weight: 600;
-        margin: 0.8em 0;
-    }
-    .title:before {
-        font-family: FontAwesome;
-        content: '\f054  ';
-    }
-    .list {
-        display: none;
-    }
-}
-
-.expand {
-    .title {
-        cursor: pointer;
-        &:before {
-            content: '\f078  ';
-        }
-    }
-    .list {
-        display: block;
-    }
-}
-
-.noselect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.outro {
-    margin: 0 0 2em 0;
-    a {
-        color: $atom-one-dark-orange-2;
-        text-decoration: none;
-    }
-}
-
-.footer {
-    margin: 0 0 2em 0;
-    a {
-        color: $atom-one-dark-orange-2;
-        text-decoration: none;
-    }
-    .fa {
-        color: $atom-one-dark-red-2;
-    }
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    li {
-        margin: 1em 0;
-        display: flex;
-        justify-content: flex-start;
-        .date {
-            flex-basis: 20%;
-            order: 1;
-            color: $atom-one-dark-mono-3;
-        }
-        .desc {
-            flex-basis: 80%;
-            order: 2;
-            margin-left: 1em;
-            display: flex;
-            flex-direction: column;
-        }
-        .desc .info {
+    .links {
+        margin: 0 0 1.5em 0;
+        a {
             color: $atom-one-dark-mono-2;
+            margin: auto 1em auto 0;
         }
-        span.work {
-            color: $atom-one-dark-blue;
+    }
+    .intro,
+    .life,
+    .work,
+    .outro,
+    .footer {
+        margin: 0 0 2em 0;
+        a {
+            color: $atom-one-dark-orange-2;
+            text-decoration: none;
         }
-        span.fun {
-            color: $atom-one-dark-red-1;
+    }
+    .life,
+    .work {
+        .title {
+            cursor: pointer;
+            font-size: 1.2em;
+            font-weight: 400;
+            margin: 0.8em 0;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
-        span.milestone {
-            color: $atom-one-dark-green;
+        .title:before {
+            font-family: FontAwesome;
+            content: '\f054  ';
+        }
+        .list {
+            display: none;
+        }
+    }
+    .expand {
+        .title {
+            cursor: pointer;
+            &:before {
+                content: '\f078  ';
+            }
+        }
+        .list {
+            display: block;
+        }
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            margin: 1em 0;
+            display: flex;
+            justify-content: flex-start;
+            .date {
+                flex-basis: 20%;
+                order: 1;
+                color: $atom-one-dark-mono-2;
+            }
+            .desc {
+                flex-basis: 80%;
+                order: 2;
+                margin-left: 1em;
+                display: flex;
+                flex-direction: column;
+            }
+            .desc .info {
+                color: $atom-one-dark-mono-2;
+            }
+            span.work {
+                color: $atom-one-dark-blue;
+            }
+            span.fun {
+                color: $atom-one-dark-green;
+            }
+            span.milestone {
+                color: $atom-one-dark-red-2;
+            }
         }
     }
 }
