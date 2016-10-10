@@ -43,8 +43,8 @@ I've used [Sass](http://sass-lang.com) as the CSS preprocessor, [Anton Koovit's 
 Click or touch (if you are using a mobile device) on the titles to exapand them. This will bring up a color coded list of events and projects respectively. Here is what the colors mean.
 
 | Title - color | Meaning |
-| :------------- | :------ |
-| ![event-work](https://img.shields.io/badge/event-work-61AFEF.svg?style=flat-square) | Work |
+| :------------ | :------ |
+| ![event-work](https://img.shields.io/badge/event-work-61AFEF.svg?style=flat-square) | Work or professional experience |
 | ![event-fun](https://img.shields.io/badge/event-fun-98C379.svg?style=flat-square) | Extra-curricular or fun |
 | ![event-milestone](https://img.shields.io/badge/event-milestone-BE5046.svg?style=flat-square) | Milestone or achievement |
 
@@ -76,6 +76,6 @@ function events() {
 }
 ```
 
-## Contributing and using.
+## Contributing and using
 
 Feel free to ask questions, post issues and open pull requests. This website is licensed under [MIT](https://github.com/hasit/hasit.github.io/blob/master/LICENSE) so do not feel shy to use it for your own projects.
