@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/hasit
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hasit.github.io
+  * I am hasit (https://keybase.io/hasit) on keybase.
+  * I have a public key ASCT-87tOsFyVJZwz3qieWn9l_Kp8c_eHLp899D0rFPbGQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012093fbceed3ac172549670cf7aa27969fd97f2a9f1cfde1cba7cf7d0f4ac53db190a",
+            "host": "keybase.io",
+            "kid": "012093fbceed3ac172549670cf7aa27969fd97f2a9f1cfde1cba7cf7d0f4ac53db190a",
+            "uid": "8385a65479bb8bdff9c27c8df912ae19",
+            "username": "hasit"
+        },
+        "service": {
+            "hostname": "hasit.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1487009285,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1487009274,
+        "hash": "65c50f66ca3731834b014dc8a143af7fcd59e92cf2cfb1d577a66f8cd4c8746f102604a48938f70a01da23feefe9ee21004ec0012dc2c11c6422511aab641ebc",
+        "seqno": 885073
+    },
+    "prev": "1a7e7e9f4065a61e991983f2b97bab9622336975e19836d677847b9b68d5f676",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgk/vO7TrBclSWcM96onlp/ZfyqfHP3hy6fPfQ9KxT2xkKp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTNmYmNlZWQzYWMxNzI1NDk2NzBjZjdhYTI3OTY5ZmQ5N2YyYTlmMWNmZGUxY2JhN2NmN2QwZjRhYzUzZGIxOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTNmYmNlZWQzYWMxNzI1NDk2NzBjZjdhYTI3OTY5ZmQ5N2YyYTlmMWNmZGUxY2JhN2NmN2QwZjRhYzUzZGIxOTBhIiwidWlkIjoiODM4NWE2NTQ3OWJiOGJkZmY5YzI3YzhkZjkxMmFlMTkiLCJ1c2VybmFtZSI6Imhhc2l0In0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJoYXNpdC5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NzAwOTI4NSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg3MDA5Mjc0LCJoYXNoIjoiNjVjNTBmNjZjYTM3MzE4MzRiMDE0ZGM4YTE0M2FmN2ZjZDU5ZTkyY2YyY2ZiMWQ1NzdhNjZmOGNkNGM4NzQ2ZjEwMjYwNGE0ODkzOGY3MGEwMWRhMjNmZWVmZTllZTIxMDA0ZWMwMDEyZGMyYzExYzY0MjI1MTFhYWI2NDFlYmMiLCJzZXFubyI6ODg1MDczfSwicHJldiI6IjFhN2U3ZTlmNDA2NWE2MWU5OTE5ODNmMmI5N2JhYjk2MjIzMzY5NzVlMTk4MzZkNjc3ODQ3YjliNjhkNWY2NzYiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBwClS6pqbHdFnu3++HE7ZFbVnjMJAFryObeE7jmh2f43UJ3imt5QA/2jshRNDjcyH5Wof2i3SSQQTTIRJ5wkQFqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgZMTSfqzflpeOdvfsqy37W5+cFs2pb/haGqlhcnVFvdmjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hasit
+
+==================================================================
