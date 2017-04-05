@@ -44,7 +44,11 @@ function events() {
   pullData('events').then(function (r) {
     for (var i = 0, len = r.data.length; i < len; i++) {
       var x = r.data[i];
-      h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div>' + x.description.what + ' <span class=' + x.type + '>' + x.description.who + '</span></div><div class="info">' + x.description.info + '</div></div></li>';
+      if (x.description.hasOwnProperty('url')) {
+        h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div>' + x.description.what + ' <span class=' + x.type + '>' + x.description.who + '</span></div><div class="url"><a href="' + x.description.url + '"target="_blank">' + x.description.url + '</a></div><div class="info">' + x.description.info + '</div></div></li>';
+      } else {
+        h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div>' + x.description.what + ' <span class=' + x.type + '>' + x.description.who + '</span></div><div class="info">' + x.description.info + '</div></div></li>';
+      }
     }
   });
 }
@@ -54,7 +58,11 @@ function projects() {
   pullData('projects').then(function (r) {
     for (var i = 0, len = r.data.length; i < len; i++) {
       var x = r.data[i];
-      h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div>' + x.description.what + ' ' + x.description.who + '</div><div class="info">' + x.description.info + '</div></div></li>';
+      if (x.description.hasOwnProperty('url')) {
+        h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div>' + '<span class=' + x.type + '>' + x.description.name + '</span></div><div class="url"><a href="' + x.description.url + '"target="_blank">' + x.description.url + '</a></div><div class="info">' + x.description.info + ' </div></div></li>';
+      } else {
+        h.innerHTML += '<li><div class="date">' + x.date + '</div><div class="desc"><div>' + '<span class=' + x.type + '>' + x.description.name + '</span></div><div class="info">' + x.description.info + '</div></div></li>';
+      }
     }
   });
 }

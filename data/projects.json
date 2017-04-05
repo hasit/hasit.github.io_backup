@@ -1,10 +1,10 @@
 {
   "data": [{
     "date": "All the time!",
-    "type": "personal",
+    "type": "professional",
     "description": {
-      "what": "More projects coming",
-      "who": "here",
+      "name": "More projects coming here",
+      "url": "hasit.github.io",
       "info": "More information."
     }
   }]

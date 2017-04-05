@@ -71,11 +71,11 @@ body {
         margin-left: 1em; }
         .container ul li .desc .info {
           color: #828997; }
-        .container ul li .desc span.work {
+        .container ul li .desc span.academic {
           color: #61AFEF; }
-        .container ul li .desc span.fun {
+        .container ul li .desc span.personal {
           color: #98C379; }
-        .container ul li .desc span.milestone {
+        .container ul li .desc span.professional {
           color: #BE5046; }
 
 /*# sourceMappingURL=style.css.map */
