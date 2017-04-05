@@ -1,6 +1,6 @@
 $font-stack: 'Arvo',
 serif;
-$atom-one-dark-accent: #528BFF;
+$atom-one-dark-accent: #528bff;
 $atom-one-dark-fg: #ABB2BF;
 $atom-one-dark-bg: #282C34;
 $atom-one-dark-bg-1: #121417;
@@ -20,100 +20,100 @@ $atom-one-dark-gray: #3E4451;
 $atom-one-dark-silver: #AAAAAA;
 $atom-one-dark-black: #0F1011;
 body {
-    font-family: $font-stack;
-    background-color: $atom-one-dark-bg;
-    color: $atom-one-dark-fg;
-    font-size: 1em;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  display: flex;
+  font-family: $font-stack;
+  background-color: $atom-one-dark-bg;
+  color: $atom-one-dark-fg;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    max-width: 650px;
-    .header {
-        font-weight: 700;
-        margin: 0;
+  max-width: 650px;
+  .header {
+    font-weight: 700;
+    margin: 0;
+  }
+  .links {
+    margin: 0 0 1.5em 0;
+    a {
+      color: $atom-one-dark-mono-2;
+      margin: auto 1em auto 0;
     }
-    .links {
-        margin: 0 0 1.5em 0;
-        a {
-            color: $atom-one-dark-mono-2;
-            margin: auto 1em auto 0;
-        }
+  }
+  .intro,
+  .life,
+  .work,
+  .outro,
+  .footer {
+    margin: 0 0 2em 0;
+    a {
+      color: $atom-one-dark-orange-2;
+      text-decoration: none;
     }
-    .intro,
-    .life,
-    .work,
-    .outro,
-    .footer {
-        margin: 0 0 2em 0;
-        a {
-            color: $atom-one-dark-orange-2;
-            text-decoration: none;
-        }
+  }
+  .life,
+  .work {
+    .title {
+      cursor: pointer;
+      font-size: 1.2em;
+      font-weight: 400;
+      margin: 0.8em 0;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
-    .life,
-    .work {
-        .title {
-            cursor: pointer;
-            font-size: 1.2em;
-            font-weight: 400;
-            margin: 0.8em 0;
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        .title:before {
-            font-family: FontAwesome;
-            content: '\f054  ';
-        }
-        .list {
-            display: none;
-        }
+    .title:before {
+      font-family: FontAwesome;
+      content: '\f054  ';
     }
-    .expand {
-        .title {
-            cursor: pointer;
-            &:before {
-                content: '\f078  ';
-            }
-        }
-        .list {
-            display: block;
-        }
+    .list {
+      display: none;
     }
-    ul {
-        list-style: none;
-        padding: 0;
-        li {
-            display: flex;
-            margin-bottom: 0.5em;
-            justify-content: flex-start;
-            .date {
-                min-width: 125px;
-                color: $atom-one-dark-mono-2;
-            }
-            .desc {
-                margin-left: 1em;
-                display: flex;
-                flex-direction: column;
-                .info {
-                    color: $atom-one-dark-mono-2;
-                }
-                span.work {
-                    color: $atom-one-dark-blue;
-                }
-                span.fun {
-                    color: $atom-one-dark-green;
-                }
-                span.milestone {
-                    color: $atom-one-dark-red-2;
-                }
-            }
-        }
+  }
+  .expand {
+    .title {
+      cursor: pointer;
+      &:before {
+        content: '\f078  ';
+      }
     }
+    .list {
+      display: block;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: .5em;
+      .date {
+        color: $atom-one-dark-mono-2;
+        min-width: 125px;
+      }
+      .desc {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+        .info {
+          color: $atom-one-dark-mono-2;
+        }
+        span.work {
+          color: $atom-one-dark-blue;
+        }
+        span.fun {
+          color: $atom-one-dark-green;
+        }
+        span.milestone {
+          color: $atom-one-dark-red-2;
+        }
+      }
+    }
+  }
 }

@@ -1,11 +1,11 @@
 body {
+  display: flex;
   font-family: "Arvo", serif;
   background-color: #282C34;
   color: #ABB2BF;
   font-size: 1em;
   justify-content: center;
-  align-items: center;
-  display: flex; }
+  align-items: center; }
 
 .container {
   max-width: 650px; }
@@ -60,15 +60,15 @@ body {
     padding: 0; }
     .container ul li {
       display: flex;
-      margin-bottom: 0.5em;
-      justify-content: flex-start; }
+      justify-content: flex-start;
+      margin-bottom: .5em; }
       .container ul li .date {
-        min-width: 125px;
-        color: #828997; }
+        color: #828997;
+        min-width: 125px; }
       .container ul li .desc {
-        margin-left: 1em;
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        margin-left: 1em; }
         .container ul li .desc .info {
           color: #828997; }
         .container ul li .desc span.work {
