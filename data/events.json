@@ -1,8 +1,7 @@
 {
-  "data": [
-    {
+  "data": [{
       "date": "Fall 2017",
-      "type": "work",
+      "type": "academic",
       "description": {
         "what": "Teaching Assistant for",
         "who": "Dr. Jeffery Kim",
@@ -11,16 +10,16 @@
     },
     {
       "date": "February 2016",
-      "type": "milestone",
+      "type": "academic",
       "description": {
         "what": "$5,000",
         "who": "graduate student scholarship",
         "info": "Scholarship from CSS Department, University of Washington Bothell."
-      } 
+      }
     },
     {
       "date": "November 2015",
-      "type": "fun",
+      "type": "personal",
       "description": {
         "what": "All-Star Team for",
         "who": "UWB and Microsoft IoT Challenge",
@@ -29,7 +28,7 @@
     },
     {
       "date": "October 2015",
-      "type": "milestone",
+      "type": "academic",
       "description": {
         "what": "$3,000 grant for",
         "who": "SWIS research",
@@ -38,7 +37,7 @@
     },
     {
       "date": "March 2011",
-      "type": "fun",
+      "type": "personal",
       "description": {
         "what": "Winner of",
         "who": "Opus ‘11",

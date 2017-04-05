@@ -1,12 +1,11 @@
 {
-  "data": [
-    {
-      "date": "All the time!",
-      "description": {
-        "what": "More projects coming",
-        "who": "here",
-        "info": "More information."
-      }
+  "data": [{
+    "date": "All the time!",
+    "type": "personal",
+    "description": {
+      "what": "More projects coming",
+      "who": "here",
+      "info": "More information."
     }
-  ]
+  }]
 }
